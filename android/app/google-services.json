@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298432854334",
+    "project_id": "flash-chat-ebc71",
+    "storage_bucket": "flash-chat-ebc71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298432854334:android:36d516f7266003f096146f",
+        "android_client_info": {
+          "package_name": "sharjeel.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298432854334-ls0fg0g7f2ulmv4nq5qndt6gns84tgb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwGKo2IgJIqLFiA_tifp_IvtgTKYvqgyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298432854334-ls0fg0g7f2ulmv4nq5qndt6gns84tgb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
