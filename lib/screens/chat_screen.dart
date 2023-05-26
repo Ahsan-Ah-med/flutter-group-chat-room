@@ -98,33 +98,33 @@ class _ChatScreenState extends State<ChatScreen> {
                       decoration: kMessageTextFieldDecoration,
                     ),
                   ),
-                  FlatButton(
-                    onPressed: () {
-                      datetime = DateTime.now().toUtc();
+                  // FlatButton(
+                  //   onPressed: () {
+                  //     datetime = DateTime.now().toUtc();
 
-                      _messageTextController.clear();
-                      if (messageText != '') {
-                        _firestore.collection('messages').add({
-                          'text': messageText,
-                          'sender': loggedInUser.email,
-                          'timeStamp': datetime,
-                        });
-                      }
-                      messageText = '';
-                      scrollController.animateTo(
-                          scrollController.position.maxScrollExtent,
-                          duration: const Duration(seconds: 1),
-                          curve: Curves.easeInOut);
-                      scrollController.animateTo(
-                          scrollController.position.maxScrollExtent,
-                          duration: const Duration(microseconds: 900),
-                          curve: Curves.easeInOut);
-                    },
-                    child: const Text(
-                      'Send',
-                      style: kSendButtonTextStyle,
-                    ),
-                  ),
+                  //     _messageTextController.clear();
+                  //     if (messageText != '') {
+                  //       _firestore.collection('messages').add({
+                  //         'text': messageText,
+                  //         'sender': loggedInUser.email,
+                  //         'timeStamp': datetime,
+                  //       });
+                  //     }
+                  //     messageText = '';
+                  //     scrollController.animateTo(
+                  //         scrollController.position.maxScrollExtent,
+                  //         duration: const Duration(seconds: 1),
+                  //         curve: Curves.easeInOut);
+                  //     scrollController.animateTo(
+                  //         scrollController.position.maxScrollExtent,
+                  //         duration: const Duration(microseconds: 900),
+                  //         curve: Curves.easeInOut);
+                  //   },
+                  //   child: const Text(
+                  //     'Send',
+                  //     style: kSendButtonTextStyle,
+                  //   ),
+                  // ),
                 ],
               ),
             ),
